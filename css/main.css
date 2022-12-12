@@ -193,16 +193,34 @@ a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  padding: 10px 25px;
 }
+
 
 .about-img1{
   position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-img2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .about-img1 img{
-  width: 50%;
-  height: 50%;
-  object-position: 50% 50%;
+  width: 60%;
+  height: 60%;
+
+}
+
+.about-img2 img{
+  width: 60%;
+  height: 60%;
+  margin-left: 40%;
+  vertical-align: bottom;
+
 }
 
 .point.section{
@@ -210,6 +228,10 @@ a:hover{
 }
 
 .point-wrapper{
+  position: relative;
+}
+
+.point-wrapper__nav{
   width: 90%;
   margin: 0 auto;
 }
@@ -224,10 +246,12 @@ a:hover{
 
 .point-wrapper__nav__list__item{
   width: 40%;
+  z-index: 2;
 }
 
 .point-wrapper__nav__list__img__1{
   width: 50%;
+  z-index: 2;
 }
 
 .point-wrapper__nav__list__img__1 img{
@@ -236,6 +260,7 @@ a:hover{
 
 .point-wrapper__nav__list__img__2{
   width: 50%;
+  z-index: 2;
 }
 
 .point-wrapper__nav__list__img__2 img{
@@ -244,6 +269,7 @@ a:hover{
 
 .point-wrapper__nav__list__img__3{
   width: 50%;
+  z-index: 2;
 }
 
 .point-wrapper__nav__list__img__3 img{
@@ -252,6 +278,7 @@ a:hover{
 
 .point-wrapper__nav__list__img__4{
   width: 50%;
+  z-index: 2;
 }
 
 .point-wrapper__nav__list__img__4 img{
@@ -264,19 +291,24 @@ a:hover{
 }
 
 .ttl__2{
+  width: 60%;
   font-size: 2rem;
   line-height: 1.2;
-  
+ 
+}
+
+.ttl__2 strong{
+  color: #ffffff;
 }
 
 .ttl__2 p{
   font-size: 1rem;
-  padding: 4% 0;
+  padding: 50px 0;
 }
 
 .ttl__3{
   font-size: 1rem;
-  padding-top: 10%;
+  padding-top: 38px;
 }
 
 .ttl__3 a{
@@ -296,6 +328,37 @@ a:hover{
 .__rev3{
   flex-flow: row-reverse;
 }
+
+
+.style1{
+  background-color:#4285f4;
+  position: absolute;
+  height: 9vh;
+  width: 100%;
+  top: 3%;
+}
+.style2{
+  background-color:#ea4335;
+  position: absolute;
+  height: 6vh;
+  width: 100%;
+  top: 27%;
+}
+.style3{
+  background-color:#fbbc05;
+  position: absolute;
+  height: 9.5vh;
+  width: 100%;
+  top: 54.7%;
+}
+.style4{
+  background-color:#34a853;
+  position: absolute;
+  height: 9vh;
+  width: 100%;
+  top: 83%;
+}
+
 
 .work{
   text-align: center;
@@ -470,6 +533,32 @@ justify-content: space-around;
 @media screen and (max-width: 1024px) {
   .images-wrapper{
     height: 650px;
+  }
+
+  .point-wrapper__nav__list__item {
+    width: 60%;
+}
+
+.ttl__2 {
+  width: 80%;
+}
+
+  .style1{
+    top:1.5%;
+  }
+  .style2{
+    top: 30%;
+
+  }
+  .style3{
+    height: 6vh;
+    top: 57%;
+
+  }
+  .style4{
+    height: 6.5vh;
+    top: 81.5%;
+
   }
 
 }
