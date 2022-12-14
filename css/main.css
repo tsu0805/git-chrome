@@ -59,6 +59,7 @@ a:hover{
 
 .header-img{
   width: 100%;
+  position: relative;
 }
 
 .header-img img{
@@ -74,7 +75,7 @@ a:hover{
 
 .header-main{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: #ffffff;
@@ -153,6 +154,8 @@ a:hover{
   color: #ffffff;
   font-size: 3rem;
   text-align: center;
+  font-family: Mochiy Pop P One;
+  font-style: italic;
 }
 
 .concept-wrapper__txt{
@@ -367,6 +370,8 @@ a:hover{
 .work-wrapper{
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 10%;
+  position: relative;
 }
 
 .work-wrapper small{
@@ -375,7 +380,7 @@ a:hover{
 
 .work-wrapper h1{
   font-size: 2rem;
-  margin: 4% 0;
+  margin: 30px 0 4%;
 }
 
 .work-wrapper__list{
@@ -385,18 +390,20 @@ a:hover{
 }
 
 .work-wrapper__list__box{
-  width: 15%;
+  width: 12%;
   border: solid 2px #333;
-  padding: 8%  20px 4%;
+  padding: 5%  38px 4%;
   position: relative;
   box-shadow: 0 10px 25px 0 #777;
+  background-color: #ffffff;
+  z-index: 2;
 }
 
 
 .icon{
   position: absolute;
-  top:2%;
-  left: 2%;
+  top:3%;
+  left: 16%;
 }
 
 .icon img{
@@ -404,16 +411,59 @@ a:hover{
   height: 60px;
 }
 
+.work-wrapper__list__item {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .work-wrapper__list__item h2{
   text-align: left;
-  padding: 10% 0 20%;
+  padding: 10% 0 40px;
   font-size: 1rem;
 }
 
 .work-wrapper__list__item p{
   text-align: left;
-  padding-bottom: 20%;
+  padding-bottom: 66px;
   font-size: 1rem;
+}
+
+.circle1{
+  position: absolute;
+  width: 250px;
+  height:250px;
+  background-color: #4285f4;
+  border-radius: 50%;
+  top: 15%;
+  left: 15%;
+}
+.circle2{
+  position: absolute;
+  width: 250px;
+  height:500px;
+  background-color: #fbbc05;
+  border-radius: 0 250px 250px 0;
+  top: 3%;
+  right: 18%;
+
+}
+.circle3{
+  position: absolute;
+  width: 250px;
+  height:250px;
+  background-color: #ea4335;
+  bottom: 10%;
+  right: 6%;
+  border-radius: 50%;
+}
+.circle4{
+  position: absolute;
+  width: 680px;
+  height:340px;
+  background-color: #34a853;
+  border-radius: 680px 680px 0 0;
+  bottom: 0;
+  left: 3%;
 }
 
 .work-wrapper__list__item a{
@@ -432,8 +482,10 @@ a:hover{
 }
 
 .images-wrapper h2{
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   color:#ffffff;
+  line-height: 1.2;
+  font-weight: bold;
 }
 
 .btn2{
@@ -460,7 +512,17 @@ a:hover{
 
 .images.section{
   padding:unset;
-  padding-top: 2%;
+  /* padding-top: 2%; */
+}
+
+.images-txt__btn{
+  display: flex;
+  padding-top: 5%;
+}
+
+.images-txt__btn img{
+  width: 20%;
+  padding-right:30px ;
 }
 
 .footer-wrapper{
@@ -539,6 +601,11 @@ justify-content: space-around;
     width: 60%;
 }
 
+.header-list__txt {
+  width: 70%;
+  margin-left: 30%;
+}
+
 .ttl__2 {
   width: 80%;
 }
@@ -561,12 +628,99 @@ justify-content: space-around;
 
   }
 
+  .about-wrapper__txt {
+    font-size: 2.2rem;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #4285f4;
+    border-radius: 50%;
+    top: 15%;
+    left: 15%;
+}
+
+.circle2 {
+  position: absolute;
+  width: 140px;
+  height: 280px;
+  background-color: #fbbc05;
+  border-radius: 0 250px 250px 0;
+  top: 3%;
+  right: 0%;
+}
+
+.circle4 {
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  background-color: #34a853;
+  border-radius: 680px 680px 0 0;
+  bottom: 0;
+  left: 3%;
+}
+
+.work-wrapper__list__box {
+  width: 14%;
+  border: solid 2px #333;
+  padding: 5% 20px 4%;
+  position: relative;
+  box-shadow: 0 10px 25px 0 #777;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.work-wrapper__list__item {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.work-wrapper__list__item h2 {
+  text-align: left;
+  padding: 30px 0 20%;
+  font-size: 1.2vw;
+}
+
 }
 
 @media screen and (max-width: 768px) {
-.btn {
-  width: 50%;
+
+.header-main h2 {
+  font-size: 4vw;
 }
+.header-main p {
+  padding-top: 1.5%;
+  font-size: 1.8vw;
+}
+
+.header-list__txt__nav__item {
+  list-style: none;
+  font-size: 1.2vw;
+}
+
+.concept-wrapper {
+  height: 700px;
+}
+
+.concept-wrapper__ttl h2 {
+  font-size: 4vw;
+  padding: 30% 0 20%;
+}
+
+.concept-wrapper__txt {
+  font-size: 1.8vw;
+}
+
+.ttl__2 {
+  width: 70%;
+  font-size: 2.5vw;
+  line-height: 1.2;
+}
+/* .btn {
+  width: 50%;
+} */
 
 .work-wrapper{
   width: 90%;
@@ -586,13 +740,67 @@ justify-content: space-around;
   padding-right: 7%;
 }
 
+.style1 {
+  height: 6vh;
+}
+
+.style2{
+  top: 28%;
+}
+.style3{
+  top: 55.5%;
+}
+.style4{
+  top: 81%;
+}
+
+.circle2 {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  background-color: #fbbc05;
+  border-radius: 0 250px 250px 0;
+  top: 14%;
+  right: 0%;
+}
+
+.circle3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #ea4335;
+  bottom: 10%;
+  right: 6%;
+  border-radius: 50%;
+}
+
+.circle4 {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  background-color: #34a853;
+  border-radius: 680px 680px 0 0;
+  bottom: 0;
+  left: 3%;
+}
+
+
+
+.point-wrapper__nav__list {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 80px;
+}
+
 }
 
 @media screen and (max-width: 480px) {
 
   .header-img img {
-    width: 70px;
-    height: 70px;
+    width: 375px;
+    height: auto;
 }
 .header h1{
     font-size: 3vw;
@@ -600,9 +808,49 @@ justify-content: space-around;
     margin-bottom: 24px;
   }
 
+
+.concept-wrapper {
+    height: auto;
+  }
+
+.concept-wrapper__txt{
+  font-size: 1.2vw;
+  padding-bottom:10% ;
+}
+
+.about-wrapper__img{
+  width: 100%;
+  height: 35vh;
+}
 .btn{
   width: 80%;
 }
+.about-wrapper__txt{
+padding: 10px 25px;
+}
+
+.about-wrapper__txt h2{
+  font-size: 4vw;
+}
+
+.style1{
+  z-index: -1;
+  top: 1.4%;
+}
+.style2{
+  z-index: -1;
+  top:25% ;
+  height: 3vh;
+}
+.style3{
+  z-index: -1;
+  top: 52%;
+}
+.style4{
+  z-index: -1;
+  top:79.1%;
+}
+
 
 .btn a{
   font-size: 1vw;
@@ -625,6 +873,10 @@ justify-content: space-around;
 .ttl__2 {
   font-size: 5vw;
   line-height: 1.2;
+}
+
+.ttl__2 strong{
+  font-size: 4vw;
 }
 
 .ttl__2 p {
@@ -720,6 +972,26 @@ justify-content: space-around;
 .images-wrapper h2 {
   font-size: 4vw;
 }
+
+.circle1{
+  left: 5%;
+  width: 100px;
+  height: 100px;
+}
+.circle2{
+  width: 100px;
+  height: 200px;
+  top: 20%;
+}
+.circle3{
+  bottom: 25%;
+  right: 8%;
+}
+
+.work-wrapper{
+  padding-bottom: 5%;
+}
+
 
 .btn2 {
   font-size: 1vw;
