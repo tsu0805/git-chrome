@@ -64,7 +64,7 @@ a:hover{
 
 .header-img img{
   width: 100%;
-  height: 100%;
+  height: 92vh;
   object-fit: cover;
   vertical-align: bottom;
 }
@@ -134,8 +134,8 @@ a:hover{
   background-image: url(../img/Desktop\ -\ 8.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 2%;
-  height: 1000px;
+  padding: 4%;
+  height: auto;
   display: flex;
 }
 
@@ -164,7 +164,7 @@ a:hover{
   
   font-size: 1.5rem;
   line-height: 1.2;
-  margin: 0 auto;
+  margin: 10% auto;
 }
 
 .concept-wrapper__txt p{
@@ -185,6 +185,7 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5% 0;
 
 }
 
@@ -213,15 +214,15 @@ a:hover{
 }
 
 .about-img1 img{
-  width: 60%;
+  width: 35vw;
   height: 60%;
 
 }
 
 .about-img2 img{
-  width: 60%;
+  width: 35vw;
   height: 60%;
-  margin-left: 40%;
+  /* margin-left: 40%; */
   vertical-align: bottom;
 
 }
@@ -294,7 +295,7 @@ a:hover{
 }
 
 .ttl__2{
-  width: 60%;
+  width: 90%;
   font-size: 2rem;
   line-height: 1.2;
  
@@ -336,9 +337,9 @@ a:hover{
 .style1{
   background-color:#4285f4;
   position: absolute;
-  height: 9vh;
+  height: 12vh;
   width: 100%;
-  top: 3%;
+  top: 1.5%;
 }
 .style2{
   background-color:#ea4335;
@@ -350,16 +351,16 @@ a:hover{
 .style3{
   background-color:#fbbc05;
   position: absolute;
-  height: 9.5vh;
+  height: 11vh;
   width: 100%;
-  top: 54.7%;
+  top: 54.2%;
 }
 .style4{
   background-color:#34a853;
   position: absolute;
-  height: 9vh;
+  height: 12vh;
   width: 100%;
-  top: 83%;
+  top: 82%;
 }
 
 
@@ -368,7 +369,7 @@ a:hover{
 }
 
 .work-wrapper{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding-bottom: 10%;
   position: relative;
@@ -386,13 +387,13 @@ a:hover{
 .work-wrapper__list{
   display: flex;
   justify-content: space-around;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .work-wrapper__list__box{
-  width: 12%;
+  width: 15%;
   border: solid 2px #333;
-  padding: 5%  38px 4%;
+  padding: 80px  38px 45px;
   position: relative;
   box-shadow: 0 10px 25px 0 #777;
   background-color: #ffffff;
@@ -403,7 +404,7 @@ a:hover{
 .icon{
   position: absolute;
   top:3%;
-  left: 16%;
+  left: 13%;
 }
 
 .icon img{
@@ -412,7 +413,7 @@ a:hover{
 }
 
 .work-wrapper__list__item {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -439,12 +440,12 @@ a:hover{
 }
 .circle2{
   position: absolute;
-  width: 250px;
-  height:500px;
+  width: 200px;
+  height:400px;
   background-color: #fbbc05;
   border-radius: 0 250px 250px 0;
   top: 3%;
-  right: 18%;
+  right: 7%;
 
 }
 .circle3{
@@ -452,14 +453,14 @@ a:hover{
   width: 250px;
   height:250px;
   background-color: #ea4335;
-  bottom: 10%;
+  bottom: 5%;
   right: 6%;
   border-radius: 50%;
 }
 .circle4{
   position: absolute;
-  width: 680px;
-  height:340px;
+  width: 500px;
+  height:250px;
   background-color: #34a853;
   border-radius: 680px 680px 0 0;
   bottom: 0;
@@ -474,12 +475,13 @@ a:hover{
 
 .images-wrapper{
   background-image: url(../img/Desktop\ -\ 5.png);
-  width: 100%;
-  height: 140vh;
+  max-width: 100%;
+  min-height: 100vh;
   background-size: cover;
   position: relative;
-
 }
+
+
 
 .images-wrapper h2{
   font-size: 2.5rem;
