@@ -701,6 +701,14 @@ justify-content: space-around;
 
 @media screen and (max-width: 1024px) {
 
+  .header-list__title {
+    font-size: 2.8rem;
+}
+
+.header-main h2 {
+  font-size: 3rem;
+}
+
   .header-img img {
     width: 100%;
     height: auto;
@@ -890,25 +898,29 @@ justify-content: space-around;
   font-size: 1.5vw;
 }
 
-a {
+/* a {
   font-size: 1.5vw;
-}
+} */
 
 }
 
 @media screen and (max-width: 768px) {
 
 .header-main h2 {
-  font-size: 4vw;
+  font-size: 2.3rem;
 }
 .header-main p {
   padding-top: 1.5%;
-  font-size: 1.8vw;
+  font-size: 1.0rem;
 }
 
 .header-list__txt__nav__item {
   list-style: none;
-  font-size: 1.2vw;
+  font-size: 0.6rem;
+}
+
+.header-list__title {
+  font-size: 2.0rem;
 }
 
 .about-wrapper__txt h2{
@@ -1091,20 +1103,20 @@ a {
 }
 
 .point-wrapper__nav__list__img__1 img {
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 130px;
 }
 .point-wrapper__nav__list__img__2 img {
   width: 250px;
-  height: 200px;
+  height: 180px;
 }
 .point-wrapper__nav__list__img__3 img {
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 180px;
 }
 .point-wrapper__nav__list__img__4 img {
   width: 250px;
-  height: 200px;
+  height: 180px;
 }
 
 
@@ -1121,12 +1133,36 @@ a {
   font-size: 2rem;
 }
 
+.header-list__txt {
+    width: 70%;
+    margin-left: 20%;
+}
+
+}
+
+@media screen and (max-width: 580px){
+  .header-main h2 {
+    font-size: 2.0rem;
+  }
+  .header-main p {
+    padding-top: 1.5%;
+    font-size: 0.8rem;
+  }
+  
+  .header-list__txt__nav__item {
+    list-style: none;
+    font-size: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
 
+  .header-main h2 {
+    font-size: 1.4rem;
+}
+
 .header-main p{
-  font-size: 0.5vw;
+  font-size: 0.4rem;
 }
 
   .header-img img {
@@ -1140,14 +1176,14 @@ a {
 }
 
 .header-list__txt__nav__item{
-  font-size: 1.0vw;
+  font-size: 0.4rem;
 }
 
 
 .header h1{
-    font-size: 3vw;
-    margin-top: 20px;
-    margin-bottom: 24px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 12px;
   }
 
 
@@ -1397,7 +1433,7 @@ padding:5px 10px;
 .footer-wrapper__list__txt {
   display: flex;
   align-items: center;
-  font-size: 1vw;
+  font-size: 0.5rem;
   margin-right: 7%;
 }
 
@@ -1408,7 +1444,7 @@ padding:5px 10px;
 }
 .footer-wrapper__ttl__list__item {
   padding: 2% 0;
-  font-size: 1vw;
+  font-size: 0.5rem;
 }
 
 .footer-wrapper__end1 img{
@@ -1417,7 +1453,7 @@ padding:5px 10px;
 }
 
 .footer-wrapper__end2 {
-  font-size: 1vw;
+  font-size: 0.5rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
