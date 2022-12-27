@@ -1212,10 +1212,10 @@ padding:5px 10px;
 } */
 
 
-.btn a{
+/* .btn a{
   font-size: 1vw;
     padding: 1.5% 4%;
-}
+} */
 
 .point-wrapper__nav__list {
   display: block;
@@ -1237,10 +1237,10 @@ padding:5px 10px;
   padding-left: 50px;
 }
 
-.ttl__2 {
+/* .ttl__2 {
   font-size: 5vw;
   line-height: 1.2;
-}
+} */
 
 .ttl__2.__b h3{
   padding-left: 50px;
@@ -1249,14 +1249,14 @@ padding:5px 10px;
   padding-left: 50px;
 }
 
-.ttl__2 strong{
+/* .ttl__2 strong{
   font-size: 4vw;
-}
+} */
 
-.ttl__2 p {
+/* .ttl__2 p {
   font-size: 1vw;
   padding: 4% 0;
-}
+} */
 
 .ttl__3 {
   width: 80%;
@@ -1292,8 +1292,8 @@ padding:5px 10px;
 }
 
 .point-wrapper__nav__list__img__1 img {
-  width: 200px;
-  height: 100px;
+ width: 30vw;
+ height: auto;
 }
 .point-wrapper__nav__list__img__2 {
   padding-top: 10%;
@@ -1303,9 +1303,10 @@ padding:5px 10px;
 }
 
 .point-wrapper__nav__list__img__2 img {
-  width: 200px;
-  height: 100px;
+  width: 30vw;
+ height: auto;
 }
+
 .point-wrapper__nav__list__img__3 {
   padding-top: 10%;
   width: 60%;
@@ -1314,8 +1315,8 @@ padding:5px 10px;
 }
 
 .point-wrapper__nav__list__img__3 img {
-  width: 200px;
-  height: 100px;
+  width: 30vw;
+ height: auto;
 }
 .point-wrapper__nav__list__img__4 {
   padding-top: 10%;
@@ -1325,8 +1326,8 @@ padding:5px 10px;
 }
 
 .point-wrapper__nav__list__img__4 img {
-  width: 200px;
-  height: 100px;
+  width: 30vw;
+ height: auto;
 }
 
 .work-wrapper small {
