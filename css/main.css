@@ -1232,6 +1232,7 @@ padding:5px 10px;
 
 .ttl__1.__b{
   padding-left: 50px;
+  font-size: 1rem;
 }
 .ttl__1.__d{
   padding-left: 50px;
@@ -1345,6 +1346,8 @@ padding:5px 10px;
   position: unset;
 }
 
+
+
 .point-wrapper__nav__list__img__4 img {
   width: 40vw;
  height: auto;
@@ -1374,6 +1377,12 @@ padding:5px 10px;
   margin: 0 auto 10%;
 }
 
+.work-wrapper__list__item p {
+  text-align: left;
+  padding-bottom: 15%;
+  font-size: 1rem;
+}
+
 .icon img {
   width: 30px;
   height: 30px;
@@ -1382,20 +1391,15 @@ padding:5px 10px;
 .work-wrapper__list__item h2 {
   text-align: left;
   padding: 10% 0 15%;
-  font-size: 1vw;
+  font-size: 1.2rem;
 }
 
-.work-wrapper__list__item p {
-  text-align: left;
-  padding-bottom: 15%;
-  font-size: 1vw;
-}
 
 .work-wrapper__list__item a {
   display: block;
   text-align: left;
   margin: 3% 0 3%;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .images-wrapper {
